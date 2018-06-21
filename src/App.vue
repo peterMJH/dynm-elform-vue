@@ -65,7 +65,7 @@ export default {
                         message: 'date null message',
                         trigger: false
                     }
-                },                
+                },
                 {
                     column: 'column4',
                     type: 'switch',

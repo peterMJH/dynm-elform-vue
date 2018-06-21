@@ -26,11 +26,7 @@ export default {
             return result
         },
         createMessage(createElement, item) {
-            if (item.rules !== undefined && 
-                item.rules.required && 
-                item.value !== undefined &&
-                (item.value === '' || item.value === null || item.value.length === 0) 
-                ) {
+            if (item.rules !== undefined && item.rules.required && item.value !== undefined && (item.value === '' || item.value === null || item.value.length === 0)) {
                 return createElement('span', {
                     style: {
                         color: 'red',
@@ -46,8 +42,7 @@ export default {
         }
     },
     render (createElement) {
-        return createElement('el-form', 
-            {
+        return createElement('el-form', {
                 attrs : {
                     'label-width': '120px'
                 },
@@ -86,8 +81,7 @@ export default {
                             props: {
                                 tableObject: item.tableObject
                             }
-                        }, 
-                        child),
+                        }, child),
                         this.createMessage(createElement, item)
                     ])
                 })
