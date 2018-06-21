@@ -1,9 +1,9 @@
 {
   "name": "dynm-elform-vue",
   "version": "1.0.0",
-  "description": "A Vue.js project",
+  "description": "vuejs element-ui el-form common-component",
   "author": "peterMoon <mjh9016@gmail.com>",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
@@ -71,5 +71,21 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "main": ".eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterMJH/dynm-elform-vue.git"
+  },
+  "keywords": [
+    "vuejs",
+    "element-ui",
+    "component",
+    "form"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peterMJH/dynm-elform-vue/issues"
+  },
+  "homepage": "https://github.com/peterMJH/dynm-elform-vue#readme"
 }
