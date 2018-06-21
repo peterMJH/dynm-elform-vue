@@ -1,6 +1,6 @@
 # dynm-elform-vue
 
-> A Vue.js project
+> vuejs element-ui el-form component
 
 ## Build Setup
 
